@@ -1,0 +1,29 @@
+cd -> acceder a carpeta/ ir a carpeta origen 
+cd ..-> ir una carpeta atras 
+ls -> mostrar archivos de una carpeta
+ls -l -> listar archivos de una carpeta
+mkdir -> crear carpeta
+rm -> borar archivo
+rm -r -> borrar carpeta/borrado recursivo
+nano -> abrir/crear archivo en consola
+	 |-------- W: buscar
+	 |-------- O: guardar
+	 |-------- X: guardar y cerrar 
+ssh nombreusuario@ip_maquina -> conexión a servidor
+history -> historial de comandos
+find -name -> buscar un fichero en un directorio
+man <<comando>> -> opciones de comando(manual del comando)
+
+
+################# COMANDOS GIT #################
+
+git clone << URL_REPOSITORIO >> -> clonar el repositorio en tu local
+git checkout -b <<nombre_branch>> -> crear la rama
+git checkout <<nombre_branch>> -> acceder a la rama
+git commit -m <<"mensaje">> -> enviar mensaje de subida al repo
+git add <<nombre de fichero> -> añadir fichero nuevo al repo
+git push origin <<rama destino>> -> guardar los datos en el repo
+
+################################################
+
+python <<nombre_script>>.py -> ejecutar script python
