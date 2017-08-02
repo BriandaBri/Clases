@@ -1,0 +1,2 @@
+crear una lista de diccionarios que contendran este formato {nombre:"nombre_user", edad:edad_user, codigo_usuario:"codigo_usuario"}
+Volcar la lista sobre un fichero txt
