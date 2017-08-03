@@ -11,6 +11,7 @@ while cont < 6:
 print lista
 
 a = open("C:/Users/brian/desktop/Rrrr.txt", "w")
+#Cambia la ruta
 a.write('%s \n' % lista)
 
 a.close()
