@@ -1,2 +1,13 @@
-mañana te vas a atragantar.
+FILE_PATH = "texto.txt"
 
+with open(FILE_PATH,'w') as text:
+    for i in xrange(10):
+        text.write("linea {} \n".format(i))
+text.close()
+
+texto = []
+with open(FILE_PATH,'r') as text:
+    for line in text:
+        texto.append([line])
+text.close()
+print texto
